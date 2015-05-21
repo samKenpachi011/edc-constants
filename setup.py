@@ -10,18 +10,18 @@ with open(os.path.join(os.path.dirname(__file__), 'README.md')) as readme:
 os.chdir(os.path.normpath(os.path.join(os.path.abspath(__file__), os.pardir)))
 
 setup(
-    name='django-revision',
-    version='0.1.6',
+    name='edc-constants',
+    version='0.1.0',
     author=u'Erik van Widenfelt',
     author_email='ew2789@gmail.com',
     packages=find_packages(),
     include_package_data=True,
-    url='http://github/erikvw/django-revision',
-    license='GPL licence, see LICENCE',
-    description='Add a Django field class to your models to track the git revision with every model instance saved.',
+    url='https://github.com/botswana-harvard/edc-constants',
+    license='GPL license, see LICENSE',
+    description='Constants and Choices for the Edc.',
     long_description=README,
     zip_safe=False,
-    keywords='django fields git',
+    keywords='django edc choices constants',
     classifiers=[
         'Environment :: Web Environment',
         'Framework :: Django',
