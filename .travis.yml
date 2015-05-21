@@ -15,11 +15,8 @@ install:
   - pip install coveralls --use-mirrors
   - pip install -q -r requirements.txt --use-mirrors
 
-before_script:
+script:
   - flake8 edc_constants
-
-script: 
-  - coverage run --source=edc_constants
 
 after_success:
   - coveralls
