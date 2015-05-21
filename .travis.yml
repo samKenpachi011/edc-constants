@@ -16,10 +16,10 @@ install:
   - pip install -q -r requirements.txt --use-mirrors
 
 before_script:
-  - flake8 edc-constants
+  - flake8 edc_constants
 
 script: 
-  - coverage run --source=edc-constants
+  - coverage run --source=edc_constants
 
 after_success:
   - coveralls
