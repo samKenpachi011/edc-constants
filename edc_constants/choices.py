@@ -90,6 +90,14 @@ DATE_ESTIMATED = (
     ('YMD', 'Yes, estimated Year, Month and Day'),
 )
 
+DATE_ESTIMATED_NA = (
+    (NOT_APPLICABLE, _("Not applicable")),
+    (NOT_ESTIMATED, _("No")),
+    ("D", _("Yes, estimated the Day")),
+    ("MD", _("Yes, estimated Month and Day")),
+    ("YMD", _("Yes, estimated Year, Month and Day")),
+)
+
 DEATH_RELATIONSIP_TO_STUDY = (
     ('Definitely not related', 'Definitely not related'),
     ('Probably not related', 'Probably not related'),
